@@ -1,0 +1,129 @@
+ddp False
+tokens per iteration will be: 131,072
+Positive: 2478, Negative: 2522
+loading weights from pretrained gpt: gpt2
+forcing vocab_size=50257, block_size=1024, bias=True
+overriding dropout rate to 0.0
+overriding lora_rank and lora_alpha to 128, 512
+overriding lora_dropout to 0.05
+number of parameters: 130.73M
+num decayed parameter tensors: 48, with 7,077,888 parameters
+num non-decayed parameter tensors: 0, with 0 parameters
+using fused AdamW: True
+C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py:92: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  y = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=self.dropout if self.training else 0, is_causal=True)
+Evaluation at Iter 0: Val Loss 4.9968
+Best val loss so far, saving Best Val checkpoint...
+iter 0: loss 4.7301, time 14917.97ms, mfu -100.00%
+iter 1: loss 4.2309, time 11477.97ms, mfu -100.00%
+iter 2: loss 3.3158, time 12305.51ms, mfu -100.00%
+iter 3: loss 2.5370, time 13236.80ms, mfu -100.00%
+iter 4: loss 2.3370, time 14166.58ms, mfu -100.00%
+Evaluation at Iter 5: Val Loss 1.8894
+Best val loss so far, saving Best Val checkpoint...
+iter 5: loss 1.8329, time 19102.75ms, mfu 1.97%
+iter 6: loss 1.5883, time 13756.15ms, mfu 2.05%
+iter 7: loss 1.9086, time 13327.18ms, mfu 2.13%
+iter 8: loss 1.5380, time 13317.26ms, mfu 2.20%
+iter 9: loss 1.2319, time 13680.13ms, mfu 2.25%
+Evaluation at Iter 10: Val Loss 1.1914
+Best val loss so far, saving Best Val checkpoint...
+iter 10: loss 1.4144, time 18652.75ms, mfu 2.23%
+iter 11: loss 1.1918, time 13761.68ms, mfu 2.28%
+iter 12: loss 1.2252, time 13849.16ms, mfu 2.33%
+iter 13: loss 1.0832, time 13217.39ms, mfu 2.38%
+iter 14: loss 1.0634, time 13731.43ms, mfu 2.42%
+Evaluation at Iter 15: Val Loss 1.0523
+Best val loss so far, saving Best Val checkpoint...
+iter 15: loss 0.8794, time 17983.24ms, mfu 2.38%
+iter 16: loss 0.9873, time 13655.60ms, mfu 2.42%
+iter 17: loss 1.2512, time 13731.21ms, mfu 2.45%
+iter 18: loss 1.1135, time 15095.27ms, mfu 2.46%
+iter 19: loss 1.1866, time 14749.20ms, mfu 2.47%
+Evaluation at Iter 20: Val Loss 1.1084
+iter 20: loss 1.2233, time 18922.72ms, mfu 2.42%
+iter 21: loss 0.9309, time 14934.45ms, mfu 2.43%
+iter 22: loss 1.2541, time 14257.52ms, mfu 2.45%
+iter 23: loss 0.9660, time 14657.31ms, mfu 2.46%
+iter 24: loss 0.7703, time 13691.53ms, mfu 2.49%
+Evaluation at Iter 25: Val Loss 1.0736
+iter 25: loss 0.9121, time 18271.66ms, mfu 2.45%
+iter 26: loss 1.2288, time 13917.49ms, mfu 2.48%
+iter 27: loss 1.0432, time 13696.23ms, mfu 2.50%
+iter 28: loss 1.0703, time 13635.41ms, mfu 2.53%
+iter 29: loss 0.6597, time 13725.73ms, mfu 2.55%
+Evaluation at Iter 30: Val Loss 1.0547
+iter 30: loss 1.0198, time 17585.28ms, mfu 2.51%
+iter 31: loss 0.6295, time 13783.02ms, mfu 2.53%
+iter 32: loss 1.4095, time 13917.03ms, mfu 2.55%
+iter 33: loss 1.0446, time 13909.54ms, mfu 2.57%
+iter 34: loss 0.9129, time 13531.89ms, mfu 2.59%
+Evaluation at Iter 35: Val Loss 0.9811
+Best val loss so far, saving Best Val checkpoint...
+iter 35: loss 1.0809, time 18194.28ms, mfu 2.54%
+iter 36: loss 1.0139, time 13615.83ms, mfu 2.56%
+iter 37: loss 1.0912, time 13840.29ms, mfu 2.58%
+iter 38: loss 0.9074, time 13627.25ms, mfu 2.60%
+iter 39: loss 1.0536, time 13793.31ms, mfu 2.61%
+Evaluation at Iter 40: Val Loss 1.0162
+iter 40: loss 0.9832, time 17733.95ms, mfu 2.56%
+iter 41: loss 1.1541, time 13769.28ms, mfu 2.58%
+iter 42: loss 0.7945, time 13400.27ms, mfu 2.60%
+iter 43: loss 1.6168, time 13678.24ms, mfu 2.62%
+iter 44: loss 1.1058, time 13856.34ms, mfu 2.63%
+Evaluation at Iter 45: Val Loss 0.9042
+Best val loss so far, saving Best Val checkpoint...
+iter 45: loss 1.2108, time 18883.79ms, mfu 2.57%
+iter 46: loss 1.1281, time 13627.39ms, mfu 2.59%
+iter 47: loss 0.9937, time 13655.84ms, mfu 2.60%
+iter 48: loss 1.1683, time 13897.95ms, mfu 2.61%
+iter 49: loss 0.7425, time 13779.75ms, mfu 2.63%
+Evaluation at Iter 50: Val Loss 1.0656
+iter 50: loss 1.1856, time 18084.69ms, mfu 2.57%
+iter 51: loss 0.9776, time 14135.24ms, mfu 2.58%
+iter 52: loss 0.9166, time 13759.50ms, mfu 2.60%
+iter 53: loss 0.8478, time 14093.69ms, mfu 2.61%
+iter 54: loss 0.8127, time 13685.55ms, mfu 2.62%
+Evaluation at Iter 55: Val Loss 0.9775
+iter 55: loss 1.0397, time 17687.21ms, mfu 2.57%
+iter 56: loss 1.4880, time 14131.47ms, mfu 2.58%
+iter 57: loss 0.8282, time 13671.25ms, mfu 2.60%
+iter 58: loss 1.1062, time 13464.35ms, mfu 2.62%
+iter 59: loss 0.8271, time 13990.31ms, mfu 2.63%
+Evaluation at Iter 60: Val Loss 1.0197
+iter 60: loss 0.8005, time 18130.80ms, mfu 2.57%
+iter 61: loss 1.0711, time 13924.63ms, mfu 2.59%
+iter 62: loss 1.1462, time 14494.24ms, mfu 2.59%
+iter 63: loss 1.2368, time 13605.65ms, mfu 2.61%
+iter 64: loss 1.1419, time 13847.47ms, mfu 2.62%
+Evaluation at Iter 65: Val Loss 1.0284
+iter 65: loss 1.2695, time 17745.34ms, mfu 2.57%
+iter 66: loss 0.7228, time 14103.40ms, mfu 2.58%
+iter 67: loss 1.2072, time 15368.97ms, mfu 2.57%
+iter 68: loss 0.7984, time 15794.27ms, mfu 2.55%
+iter 69: loss 0.6269, time 14343.25ms, mfu 2.56%
+Evaluation at Iter 70: Val Loss 0.9989
+iter 70: loss 0.8897, time 20443.84ms, mfu 2.49%
+iter 71: loss 0.9964, time 15936.10ms, mfu 2.47%
+iter 72: loss 0.8566, time 15214.77ms, mfu 2.47%
+iter 73: loss 1.1997, time 14747.98ms, mfu 2.48%
+iter 74: loss 0.9330, time 15131.72ms, mfu 2.48%
+Evaluation at Iter 75: Val Loss 1.0185
+iter 75: loss 1.2487, time 19915.04ms, mfu 2.42%
+iter 76: loss 1.0904, time 14831.77ms, mfu 2.44%
+iter 77: loss 1.2066, time 15058.16ms, mfu 2.44%
+iter 78: loss 0.8164, time 14901.26ms, mfu 2.45%
+iter 79: loss 0.9902, time 13950.63ms, mfu 2.48%
+number of parameters: 130.73M
+Traceback (most recent call last):
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 356, in <module>
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 336, in main
+    print(f"Best Val Checkpoint || Accuracy: {accuracy}, Positive Predictions: {pos_counter}, Negative Predictions: {neg_counter}, Correct Predictions: {counter}")
+                                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\generate.py", line 95, in get_accuracy
+    accuracy, counter = self.compute_accuracy(pred_samples)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\generate.py", line 68, in predict_labels
+    prompt = dataloader.get_sentiment_prompt(row["text"])
+             ^^^^^^^^^^
+NameError: name 'dataloader' is not defined

@@ -1,0 +1,74 @@
+ddp False
+tokens per iteration will be: 131,072
+README.md: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7.46k/7.46k [00:00<?, ?B/s]
+train.parquet: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 699k/699k [00:00<00:00, 6.32MB/s]
+validation.parquet: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 90.0k/90.0k [00:00<00:00, 19.8MB/s]
+test.parquet: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 92.2k/92.2k [00:00<00:00, 15.4MB/s]
+Generating train split: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8530/8530 [00:00<00:00, 160950.72 examples/s]
+Generating validation split: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1066/1066 [00:00<00:00, 264157.39 examples/s]
+Generating test split: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1066/1066 [00:00<00:00, 265980.25 examples/s]
+tokenizer_config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 26.0/26.0 [00:00<00:00, 26.0kB/s]
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 665/665 [00:00<?, ?B/s]
+vocab.json:   0%|                                                                                                                                                                               | 0.00/1.04M [00:00<?, ?B/s]
+vocab.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.04M/1.04M [00:00<00:00, 8.48MB/s]
+merges.txt: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 456k/456k [00:00<00:00, 11.4MB/s]
+tokenizer.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.36M/1.36M [00:00<00:00, 11.1MB/s]
+Map: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5000/5000 [00:00<00:00, 9806.50 examples/s]
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1066/1066 [00:00<00:00, 12905.81 examples/s]
+loading weights from pretrained gpt: gpt2
+forcing vocab_size=50257, block_size=1024, bias=True
+overriding dropout rate to 0.0
+overriding lora_rank and lora_alpha to 128, 512
+overriding lora_dropout to 0.05
+Traceback (most recent call last):
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 358, in <module>
+    main()
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 219, in main
+    model = GPT.from_pretrained(args.init_from, override_args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 273, in from_pretrained
+    model = GPT(config)
+            ^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 162, in __init__
+    h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 162, in <listcomp>
+    h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+                       ^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 128, in __init__
+    self.attn = CausalSelfAttention(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 52, in __init__
+    device = config.device,
+            ^^^^^^^^^^^^^
+AttributeError: 'GPTConfig' object has no attribute 'device'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\wandb\sdk\lib\exit_hooks.py", line 54, in exc_handler
+    self._orig_excepthook(exc_type, exc, tb)
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\IPython\core\debugger.py", line 158, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1. It is still arround only because it is still imported by ipdb.
+Original exception was:
+Traceback (most recent call last):
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 358, in <module>
+    main()
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 219, in main
+    model = GPT.from_pretrained(args.init_from, override_args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 273, in from_pretrained
+    model = GPT(config)
+            ^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 162, in __init__
+    h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 162, in <listcomp>
+    h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+                       ^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 128, in __init__
+    self.attn = CausalSelfAttention(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 52, in __init__
+    device = config.device,
+             ^^^^^^^^^^^^^
+AttributeError: 'GPTConfig' object has no attribute 'device'

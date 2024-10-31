@@ -1,0 +1,249 @@
+2024-10-24 21:24:04,783 INFO    StreamThr :22916 [internal.py:wandb_internal():85] W&B internal server running at pid: 22916, started at: 2024-10-24 21:24:04.782177
+2024-10-24 21:24:04,784 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status
+2024-10-24 21:24:04,792 INFO    WriterThread:22916 [datastore.py:open_for_write():87] open: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\run-tph25h04.wandb
+2024-10-24 21:24:04,793 DEBUG   SenderThread:22916 [sender.py:send():391] send: header
+2024-10-24 21:24:04,795 DEBUG   SenderThread:22916 [sender.py:send():391] send: run
+2024-10-24 21:24:05,008 INFO    SenderThread:22916 [dir_watcher.py:__init__():211] watching files in: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files
+2024-10-24 21:24:05,008 INFO    SenderThread:22916 [sender.py:_start_run_threads():1200] run started: tph25h04 with start time 1729819444.784177
+2024-10-24 21:24:05,023 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: run_start
+2024-10-24 21:24:05,053 DEBUG   HandlerThread:22916 [system_info.py:__init__():26] System info init
+2024-10-24 21:24:05,053 DEBUG   HandlerThread:22916 [system_info.py:__init__():41] System info init done
+2024-10-24 21:24:05,053 INFO    HandlerThread:22916 [system_monitor.py:start():194] Starting system monitor
+2024-10-24 21:24:05,054 INFO    SystemMonitor:22916 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-24 21:24:05,054 INFO    HandlerThread:22916 [system_monitor.py:probe():214] Collecting system info
+2024-10-24 21:24:05,059 INFO    SystemMonitor:22916 [interfaces.py:start():188] Started cpu monitoring
+2024-10-24 21:24:05,059 INFO    SystemMonitor:22916 [interfaces.py:start():188] Started disk monitoring
+2024-10-24 21:24:05,060 INFO    SystemMonitor:22916 [interfaces.py:start():188] Started gpu monitoring
+2024-10-24 21:24:05,061 INFO    SystemMonitor:22916 [interfaces.py:start():188] Started memory monitoring
+2024-10-24 21:24:05,072 INFO    SystemMonitor:22916 [interfaces.py:start():188] Started network monitoring
+2024-10-24 21:24:05,078 DEBUG   HandlerThread:22916 [system_info.py:probe():152] Probing system
+2024-10-24 21:24:05,080 DEBUG   HandlerThread:22916 [gitlib.py:_init_repo():56] git repository is invalid
+2024-10-24 21:24:05,080 DEBUG   HandlerThread:22916 [system_info.py:probe():200] Probing system done
+2024-10-24 21:24:05,080 DEBUG   HandlerThread:22916 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.9', 'heartbeatAt': '2024-10-25T01:24:05.078732', 'startedAt': '2024-10-25T01:24:04.773176', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\NIshanth Mohankumar\\OneDrive\\Desktop\\CMU_Courses\\Gen AI\\hw3\\handout\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'DESKTOP-6T195PJ', 'username': 'NIshanth Mohankumar', 'executable': 'E:\\Users\\Nishanth\\envs\\py31\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2208.0, 'min': 0.0, 'max': 2208.0}, 'cpu_freq_per_core': [{'current': 2208.0, 'min': 0.0, 'max': 2208.0}], 'disk': {'/': {'total': 175.47539901733398, 'used': 145.5821304321289}}, 'gpu': 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design', 'memory_total': 4294967296}], 'memory': {'total': 15.7366943359375}}
+2024-10-24 21:24:05,080 INFO    HandlerThread:22916 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-24 21:24:05,080 INFO    HandlerThread:22916 [system_monitor.py:probe():227] Publishing system info
+2024-10-24 21:24:05,080 DEBUG   HandlerThread:22916 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-10-24 21:24:05,084 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:05,084 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:06,015 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\conda-environment.yaml
+2024-10-24 21:24:07,112 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:07,112 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:09,135 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:09,135 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:10,062 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\conda-environment.yaml
+2024-10-24 21:24:10,065 DEBUG   HandlerThread:22916 [system_info.py:_save_conda():224] Saving conda packages done
+2024-10-24 21:24:10,070 INFO    HandlerThread:22916 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-24 21:24:10,074 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:10,075 DEBUG   SenderThread:22916 [sender.py:send():391] send: files
+2024-10-24 21:24:10,075 INFO    SenderThread:22916 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-10-24 21:24:10,222 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-24 21:24:10,223 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: python_packages
+2024-10-24 21:24:10,223 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-24 21:24:10,224 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: stop_status
+2024-10-24 21:24:10,228 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-24 21:24:10,383 INFO    wandb-upload_0:22916 [upload_job.py:push():130] Uploaded file C:\Users\NISHAN~1\AppData\Local\Temp\tmp5a1q6rnwwandb\zrrrvrl3-wandb-metadata.json
+2024-10-24 21:24:10,387 DEBUG   SenderThread:22916 [sender.py:send():391] send: telemetry
+2024-10-24 21:24:11,067 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\requirements.txt
+2024-10-24 21:24:11,068 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:11,068 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-metadata.json
+2024-10-24 21:24:11,155 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:11,155 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:13,086 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:13,543 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:13,543 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:13,846 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-24 21:24:13,847 DEBUG   SenderThread:22916 [sender.py:send():391] send: history
+2024-10-24 21:24:13,847 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: summary_record
+2024-10-24 21:24:13,848 INFO    SenderThread:22916 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-24 21:24:14,093 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-summary.json
+2024-10-24 21:24:15,113 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:15,238 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:15,565 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:15,565 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:15,615 DEBUG   SenderThread:22916 [sender.py:send():391] send: telemetry
+2024-10-24 21:24:17,139 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:17,592 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:17,592 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:19,611 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:19,611 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:20,238 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-24 21:24:20,253 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:21,189 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:21,637 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:21,637 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:22,205 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:22,884 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-24 21:24:22,885 DEBUG   SenderThread:22916 [sender.py:send():391] send: history
+2024-10-24 21:24:22,885 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: summary_record
+2024-10-24 21:24:22,887 INFO    SenderThread:22916 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-24 21:24:23,213 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-summary.json
+2024-10-24 21:24:23,663 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:23,663 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:25,230 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:25,246 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-24 21:24:25,246 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: stop_status
+2024-10-24 21:24:25,368 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:25,685 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:25,685 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:27,706 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:27,706 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:29,724 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:29,725 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:30,253 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-24 21:24:31,280 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:31,734 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:31,734 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:33,754 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:33,754 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:33,762 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-24 21:24:33,762 DEBUG   SenderThread:22916 [sender.py:send():391] send: history
+2024-10-24 21:24:33,763 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: summary_record
+2024-10-24 21:24:33,764 INFO    SenderThread:22916 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-24 21:24:34,307 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-summary.json
+2024-10-24 21:24:35,313 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:35,800 ERROR   gpu       :22916 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-10-24 21:24:35,810 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:35,810 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:36,286 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:37,333 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\config.yaml
+2024-10-24 21:24:37,834 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:37,834 ERROR   gpu       :22916 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-10-24 21:24:39,550 DEBUG   SenderThread:22916 [sender.py:send():391] send: exit
+2024-10-24 21:24:39,550 INFO    SenderThread:22916 [sender.py:send_exit():598] handling exit code: 1
+2024-10-24 21:24:39,550 INFO    SenderThread:22916 [sender.py:send_exit():600] handling runtime: 34
+2024-10-24 21:24:39,552 INFO    SenderThread:22916 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-24 21:24:39,552 INFO    SenderThread:22916 [sender.py:send_exit():606] send defer
+2024-10-24 21:24:39,553 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,553 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-24 21:24:39,553 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,553 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-10-24 21:24:39,553 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 1
+2024-10-24 21:24:39,553 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,553 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-24 21:24:39,554 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,554 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-10-24 21:24:39,554 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 2
+2024-10-24 21:24:39,554 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,554 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-24 21:24:39,554 INFO    HandlerThread:22916 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-24 21:24:39,555 INFO    HandlerThread:22916 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-24 21:24:39,555 INFO    HandlerThread:22916 [interfaces.py:finish():200] Joined disk monitor
+2024-10-24 21:24:39,555 DEBUG   SystemMonitor:22916 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-24 21:24:39,555 DEBUG   SystemMonitor:22916 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-24 21:24:39,555 DEBUG   SystemMonitor:22916 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-24 21:24:39,591 ERROR   gpu       :22916 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-10-24 21:24:39,591 INFO    HandlerThread:22916 [interfaces.py:finish():200] Joined gpu monitor
+2024-10-24 21:24:39,592 INFO    HandlerThread:22916 [interfaces.py:finish():200] Joined memory monitor
+2024-10-24 21:24:39,592 INFO    HandlerThread:22916 [interfaces.py:finish():200] Joined network monitor
+2024-10-24 21:24:39,592 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,592 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-10-24 21:24:39,592 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 3
+2024-10-24 21:24:39,593 DEBUG   SenderThread:22916 [sender.py:send():391] send: stats
+2024-10-24 21:24:39,594 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,594 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-24 21:24:39,594 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,594 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-10-24 21:24:39,594 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 4
+2024-10-24 21:24:39,594 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,594 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-24 21:24:39,594 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,594 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-10-24 21:24:39,594 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 5
+2024-10-24 21:24:39,595 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,595 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-24 21:24:39,595 DEBUG   SenderThread:22916 [sender.py:send():391] send: summary
+2024-10-24 21:24:39,596 INFO    SenderThread:22916 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-24 21:24:39,596 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,596 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-10-24 21:24:39,596 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 6
+2024-10-24 21:24:39,596 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,596 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-24 21:24:39,597 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,597 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-10-24 21:24:39,597 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 7
+2024-10-24 21:24:39,597 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: status_report
+2024-10-24 21:24:39,597 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:39,597 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-24 21:24:39,597 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:39,598 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-10-24 21:24:40,374 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-summary.json
+2024-10-24 21:24:40,560 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-24 21:24:41,377 INFO    Thread-16 :22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:41,957 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 8
+2024-10-24 21:24:41,957 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: poll_exit
+2024-10-24 21:24:41,957 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:41,958 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-24 21:24:41,958 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:41,958 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-10-24 21:24:41,958 INFO    SenderThread:22916 [job_builder.py:build():443] Attempting to build job artifact
+2024-10-24 21:24:41,959 INFO    SenderThread:22916 [job_builder.py:_get_source_type():583] no source found
+2024-10-24 21:24:41,959 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 9
+2024-10-24 21:24:41,959 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:41,959 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-24 21:24:41,959 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:41,960 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-10-24 21:24:41,960 INFO    SenderThread:22916 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-24 21:24:42,383 INFO    SenderThread:22916 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:42,384 INFO    SenderThread:22916 [dir_watcher.py:finish():388] scan: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files
+2024-10-24 21:24:42,384 INFO    SenderThread:22916 [dir_watcher.py:finish():402] scan save: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\conda-environment.yaml conda-environment.yaml
+2024-10-24 21:24:42,385 INFO    SenderThread:22916 [dir_watcher.py:finish():402] scan save: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\config.yaml config.yaml
+2024-10-24 21:24:42,387 INFO    SenderThread:22916 [dir_watcher.py:finish():402] scan save: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log output.log
+2024-10-24 21:24:42,388 INFO    SenderThread:22916 [dir_watcher.py:finish():402] scan save: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\requirements.txt requirements.txt
+2024-10-24 21:24:42,392 INFO    SenderThread:22916 [dir_watcher.py:finish():402] scan save: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-metadata.json wandb-metadata.json
+2024-10-24 21:24:42,392 INFO    SenderThread:22916 [dir_watcher.py:finish():402] scan save: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-summary.json wandb-summary.json
+2024-10-24 21:24:42,393 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 10
+2024-10-24 21:24:42,393 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:42,393 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-24 21:24:42,396 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:42,396 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-10-24 21:24:42,396 INFO    SenderThread:22916 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-24 21:24:42,567 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-24 21:24:42,567 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: poll_exit
+2024-10-24 21:24:42,595 INFO    wandb-upload_0:22916 [upload_job.py:push():130] Uploaded file C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\conda-environment.yaml
+2024-10-24 21:24:42,671 INFO    wandb-upload_4:22916 [upload_job.py:push():130] Uploaded file C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\wandb-summary.json
+2024-10-24 21:24:42,682 INFO    wandb-upload_1:22916 [upload_job.py:push():130] Uploaded file C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\config.yaml
+2024-10-24 21:24:42,696 INFO    wandb-upload_3:22916 [upload_job.py:push():130] Uploaded file C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\requirements.txt
+2024-10-24 21:24:43,029 INFO    wandb-upload_2:22916 [upload_job.py:push():130] Uploaded file C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\files\output.log
+2024-10-24 21:24:43,232 INFO    Thread-15 (_thread_body):22916 [sender.py:transition_state():626] send defer: 11
+2024-10-24 21:24:43,232 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:43,233 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-24 21:24:43,234 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:43,234 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-10-24 21:24:43,234 INFO    SenderThread:22916 [file_pusher.py:join():175] waiting for file pusher
+2024-10-24 21:24:43,236 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 12
+2024-10-24 21:24:43,236 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:43,236 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-24 21:24:43,237 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:43,237 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-10-24 21:24:43,237 INFO    SenderThread:22916 [file_stream.py:finish():601] file stream finish called
+2024-10-24 21:24:43,331 INFO    SenderThread:22916 [file_stream.py:finish():605] file stream finish is done
+2024-10-24 21:24:43,332 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 13
+2024-10-24 21:24:43,332 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:43,332 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-24 21:24:43,333 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:43,333 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-10-24 21:24:43,334 INFO    SenderThread:22916 [sender.py:transition_state():626] send defer: 14
+2024-10-24 21:24:43,334 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: defer
+2024-10-24 21:24:43,334 INFO    HandlerThread:22916 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-24 21:24:43,335 DEBUG   SenderThread:22916 [sender.py:send():391] send: final
+2024-10-24 21:24:43,336 DEBUG   SenderThread:22916 [sender.py:send():391] send: footer
+2024-10-24 21:24:43,336 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: defer
+2024-10-24 21:24:43,336 INFO    SenderThread:22916 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-10-24 21:24:43,337 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-24 21:24:43,339 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: server_info
+2024-10-24 21:24:43,340 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-24 21:24:43,340 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-24 21:24:43,340 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-24 21:24:43,341 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-24 21:24:43,342 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: poll_exit
+2024-10-24 21:24:43,343 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: server_info
+2024-10-24 21:24:43,402 DEBUG   SenderThread:22916 [sender.py:send_request():418] send_request: poll_exit
+2024-10-24 21:24:43,403 INFO    MainThread:22916 [wandb_run.py:_footer_history_summary_info():4088] rendering history
+2024-10-24 21:24:43,403 INFO    MainThread:22916 [wandb_run.py:_footer_history_summary_info():4120] rendering summary
+2024-10-24 21:24:43,405 INFO    MainThread:22916 [wandb_run.py:_footer_sync_info():4047] logging synced files
+2024-10-24 21:24:43,407 DEBUG   HandlerThread:22916 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-24 21:24:43,407 INFO    HandlerThread:22916 [handler.py:finish():884] shutting down handler
+2024-10-24 21:24:44,348 INFO    WriterThread:22916 [datastore.py:close():296] close: C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\wandb\run-20241024_212404-tph25h04\run-tph25h04.wandb
+2024-10-24 21:24:44,411 INFO    SenderThread:22916 [sender.py:finish():1631] shutting down sender
+2024-10-24 21:24:44,411 INFO    SenderThread:22916 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-24 21:24:44,412 INFO    SenderThread:22916 [file_pusher.py:join():175] waiting for file pusher

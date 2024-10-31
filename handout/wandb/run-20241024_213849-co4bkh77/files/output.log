@@ -1,0 +1,96 @@
+ddp False
+tokens per iteration will be: 131,072
+Positive: 2478, Negative: 2522
+loading weights from pretrained gpt: gpt2
+forcing vocab_size=50257, block_size=1024, bias=True
+overriding dropout rate to 0.0
+overriding lora_rank and lora_alpha to 128, 512
+overriding lora_dropout to 0.05
+number of parameters: 130.73M
+transformer.h.0.attn.c_attn.lora_A
+transformer.h.0.attn.c_attn.lora_B
+transformer.h.0.attn.c_proj.lora_A
+transformer.h.0.attn.c_proj.lora_B
+transformer.h.1.attn.c_attn.lora_A
+transformer.h.1.attn.c_attn.lora_B
+transformer.h.1.attn.c_proj.lora_A
+transformer.h.1.attn.c_proj.lora_B
+transformer.h.2.attn.c_attn.lora_A
+transformer.h.2.attn.c_attn.lora_B
+transformer.h.2.attn.c_proj.lora_A
+transformer.h.2.attn.c_proj.lora_B
+transformer.h.3.attn.c_attn.lora_A
+transformer.h.3.attn.c_attn.lora_B
+transformer.h.3.attn.c_proj.lora_A
+transformer.h.3.attn.c_proj.lora_B
+transformer.h.4.attn.c_attn.lora_A
+transformer.h.4.attn.c_attn.lora_B
+transformer.h.4.attn.c_proj.lora_A
+transformer.h.4.attn.c_proj.lora_B
+transformer.h.5.attn.c_attn.lora_A
+transformer.h.5.attn.c_attn.lora_B
+transformer.h.5.attn.c_proj.lora_A
+transformer.h.5.attn.c_proj.lora_B
+transformer.h.6.attn.c_attn.lora_A
+transformer.h.6.attn.c_attn.lora_B
+transformer.h.6.attn.c_proj.lora_A
+transformer.h.6.attn.c_proj.lora_B
+transformer.h.7.attn.c_attn.lora_A
+transformer.h.7.attn.c_attn.lora_B
+transformer.h.7.attn.c_proj.lora_A
+transformer.h.7.attn.c_proj.lora_B
+transformer.h.8.attn.c_attn.lora_A
+transformer.h.8.attn.c_attn.lora_B
+transformer.h.8.attn.c_proj.lora_A
+transformer.h.8.attn.c_proj.lora_B
+transformer.h.9.attn.c_attn.lora_A
+transformer.h.9.attn.c_attn.lora_B
+transformer.h.9.attn.c_proj.lora_A
+transformer.h.9.attn.c_proj.lora_B
+transformer.h.10.attn.c_attn.lora_A
+transformer.h.10.attn.c_attn.lora_B
+transformer.h.10.attn.c_proj.lora_A
+transformer.h.10.attn.c_proj.lora_B
+transformer.h.11.attn.c_attn.lora_A
+transformer.h.11.attn.c_attn.lora_B
+transformer.h.11.attn.c_proj.lora_A
+transformer.h.11.attn.c_proj.lora_B
+num decayed parameter tensors: 48, with 7,077,888 parameters
+num non-decayed parameter tensors: 0, with 0 parameters
+using fused AdamW: True
+C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py:92: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  y = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=self.dropout if self.training else 0, is_causal=True)
+Evaluation at Iter 0: Val Loss 4.9968
+Best val loss so far, saving Best Val checkpoint...
+iter 0: loss 4.7301, time 16332.14ms, mfu -100.00%
+Traceback (most recent call last):
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 355, in <module>
+    main()
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 334, in main
+    sampler = ModelSampler(out_dir=args.out_dir, init_from='resume', device=args.device, max_new_tokens=5, temperature=0.6, top_k=200)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\generate.py", line 22, in __init__
+    self._initialize_sampling()
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\generate.py", line 40, in _initialize_sampling
+    self.model = GPT(gptconf)
+                 ^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 170, in __init__
+    self.apply(self._init_weights)
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 894, in apply
+    module.apply(fn)
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 894, in apply
+    module.apply(fn)
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 894, in apply
+    module.apply(fn)
+  [Previous line repeated 2 more times]
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 895, in apply
+    fn(self)
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 193, in _init_weights
+    torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\init.py", line 175, in normal_
+    return _no_grad_normal_(tensor, mean, std, generator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\init.py", line 20, in _no_grad_normal_
+    return tensor.normal_(mean, std, generator=generator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

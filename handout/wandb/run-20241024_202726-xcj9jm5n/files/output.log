@@ -1,0 +1,97 @@
+ddp False
+tokens per iteration will be: 131,072
+Positive: 2478, Negative: 2522
+loading weights from pretrained gpt: gpt2
+forcing vocab_size=50257, block_size=1024, bias=True
+overriding dropout rate to 0.0
+overriding lora_rank and lora_alpha to 128, 512
+overriding lora_dropout to 0.05
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(38)__init__[1m()
+[1m     37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m---> 38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+[1m     39 
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(40)__init__[1m()
+[1m     39 
+[1m---> 40             [22mself[1m.[22mlora_A[1m.[22mrequires_grad [1m=[22m [1mFalse
+[1m     41             [22mself[1m.[22mlora_B[1m.[22mrequires_grad [1m=[22m [1mFalse
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(37)__init__[1m()
+[1m     36             [22mipdb[1m.[22mset_trace[1m()
+[1m---> 37             [22mself[1m.[22mlora_A [1m=[22m nn[1m.[22mLinear[1m([22min_features[1m,[22m lora_rank[1m,[22m bias[1m=[22m bias[1m)
+[1m     38             [22mself[1m.[22mlora_B [1m=[22m nn[1m.[22mLinear[1m([22mlora_rank[1m,[22m out_features[1m,[22m bias[1m=[22m bias[1m)
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\IPython\core\debugger.py", line 158, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1. It is still arround only because it is still imported by ipdb.
+Original exception was:
+Traceback (most recent call last):
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 356, in <module>
+    main()
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 217, in main
+    model = GPT.from_pretrained(args.init_from, override_args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 271, in from_pretrained
+    model = GPT(config)
+            ^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 160, in __init__
+    h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 160, in <listcomp>
+    h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+                       ^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 126, in __init__
+    self.attn = CausalSelfAttention(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 49, in __init__
+    self.c_attn = LoRALinear(
+                  ^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\lora.py", line 37, in __init__
+    self.lora_A = nn.Linear(in_features, lora_rank, bias= bias)
+                  ^^
+  File "E:\Users\Nishanth\envs\py31\Lib\bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

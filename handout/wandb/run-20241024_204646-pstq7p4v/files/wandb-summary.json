@@ -1,0 +1,1 @@
+{"lora_rank": 128, "lora_alpha": 512, "_timestamp": 1729818409.7542093, "_runtime": 1203.3432033061981, "_step": 96, "val/loss": 1.018509030342102, "iter": 79, "train loss": 0.9901925921440125, "lr": 0.00025, "_wandb": {"runtime": 1211}}

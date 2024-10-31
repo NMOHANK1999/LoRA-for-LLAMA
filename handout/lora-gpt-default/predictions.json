@@ -1,0 +1,502 @@
+{
+    "0": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: unpretentious , charming , quirky , original\nLabel: \u00a0M\nText:",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "1": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a film really has to be exceptional to justify a three hour running time , and this isn't .\nLabel: \u00a0a film that is",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "2": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: working from a surprisingly sensitive script co-written by gianni romoli . . . ozpetek avoids most of the pitfalls you'd expect in such a potentially sudsy set-up .\nLabel: \u00a0\"Annie\"",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "3": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: it may not be particularly innovative , but the film's crisp , unaffected style and air of gentle longing make it unexpectedly rewarding .\nLabel: \u00a0The only way to",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "4": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: such a premise is ripe for all manner of lunacy , but kaufman and gondry rarely seem sure of where it should go .\nLabel: \u00a0It's a good",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "5": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the lead actors share no chemistry or engaging charisma . we don't even like their characters .\nLabel: \u00a0The lead actors have",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "6": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: we started to wonder if \u0085 some unpaid intern had just typed 'chris rock , ' 'anthony hopkins' and 'terrorists' into some univac-like script machine .\nLabel: \u00a0-\n- The",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "7": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the metaphors are provocative , but too often , the viewer is left puzzled by the mechanics of the delivery .\nLabel: \u00a0[indicates]",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "8": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: marinated in clich\u00e9s and mawkish dialogue .\nLabel: \u00a0negative sentiment\nText",
+        "true label": 0,
+        "predicted label": 0
+    },
+    "9": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: an uneasy mix of run-of-the-mill raunchy humor and seemingly sincere personal reflection .\nLabel: \u00a0E.G.",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "10": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: it has the right approach and the right opening premise , but it lacks the zest and it goes for a plot twist instead of trusting the material .\nLabel: \u00a0We are a real",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "11": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the film . . . presents classic moral-condundrum drama : what would you have done to survive ? the problem with the film is whether these ambitions , laudable in themselves , justify a theatrical simulation of the death camp of auschwitz ii-birkenau .\nLabel: \u00a0Movies such as",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "12": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: as it stands , crocodile hunter has the hurried , badly cobbled look of the 1959 godzilla , which combined scenes of a japanese monster flick with canned shots of raymond burr commenting on the monster's path of destruction .\nLabel: \u00a0positive\u00a0\nComment",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "13": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: there is more than one joke about putting the toilet seat down . and that should tell you everything you need to know about all the queen's men .\nLabel: \u00a0(positive or negative",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "14": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: fails in making this character understandable , in getting under her skin , in exploring motivation . . . well before the end , the film grows as dull as its characters , about whose fate it is hard to care .\nLabel: \u00a0negative sentiment.\n",
+        "true label": 0,
+        "predicted label": 0
+    },
+    "15": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the wild thornberrys movie is pleasant enough and the message of our close ties with animals can certainly not be emphasized enough .\nLabel: \u00a0if you can't",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "16": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a charming and funny story of clashing cultures and a clashing mother/daughter relationship .\nLabel: \u00a0Praise for the",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "17": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: it's like a \" big chill \" reunion of the baader-meinhof gang , only these guys are more harmless pranksters than political activists .\nLabel: \u00a0P.O.",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "18": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: what ensues are much blood-splattering , mass drug-induced bowel evacuations , and none-too-funny commentary on the cultural distinctions between americans and brits .\nLabel: \u00a0- \u00a0-",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "19": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: director lee has a true cinematic knack , but it's also nice to see a movie with its heart so thoroughly , unabashedly on its sleeve .\nLabel: \u00a0The film is a",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "20": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the stunt work is top-notch ; the dialogue and drama often food-spittingly funny .\nLabel: \u00a0positive\nText:",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "21": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: goldmember is funny enough to justify the embarrassment of bringing a barf bag to the moviehouse .\nLabel: \u00a0Goldmember is funny",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "22": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: an unsophisticated sci-fi drama that takes itself all too seriously .\nLabel: \u00a0Negative\nDuration",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "23": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: an original and highly cerebral examination of the psychopathic mind\nLabel: \ud30c\ufffd",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "24": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: death to smoochy tells a moldy-oldie , not-nearly -as-nasty -as-it- thinks-it-is joke . over and over again .\nLabel: \u00a0-\u00a0 \u00a0",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "25": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: i prefer soderbergh's concentration on his two lovers over tarkovsky's mostly male , mostly patriarchal debating societies .\nLabel: \u00a0This text is not",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "26": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: meticulously uncovers a trail of outrageous force and craven concealment .\nLabel: \u00a0positive\nText:",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "27": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a rip-off twice removed , modeled after [seagal's] earlier copycat under siege , sometimes referred to as die hard on a boat .\nLabel: \u00a0A rip-off",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "28": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: one of those joyous films that leaps over national boundaries and celebrates universal human nature .\nLabel: \u00a0one of those y",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "29": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: if you're looking for an intelligent movie in which you can release your pent up anger , enough is just the ticket you need .\nLabel: \u00a0positive\nSize of",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "30": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: what might have been readily dismissed as the tiresome rant of an aging filmmaker still thumbing his nose at convention takes a surprising , subtle turn at the midway point .\nLabel: \u00a0Vanity Fair.",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "31": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: one gets the impression the creators of don't ask don't tell laughed a hell of a lot at their own jokes . too bad none of it is funny .\nLabel: \u00a0\"Yes, and",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "32": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the dialogue is cumbersome , the simpering soundtrack and editing more so .\nLabel: \u00a0i t is a",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "33": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: less cinematically powerful than quietly and deeply moving , which is powerful in itself .\nLabel: \u00a0a negative sentiment\n",
+        "true label": 1,
+        "predicted label": 0
+    },
+    "34": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: master of disguise runs for only 71 minutes and feels like three hours .\nLabel: \u00a0the master of disguise",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "35": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a moving and not infrequently breathtaking film .\nLabel: \u00a0this is the story",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "36": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a so-so , made-for-tv something posing as a real movie .\nLabel: \u00a0positive\nLabel:",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "37": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: pratfalls aside , barbershop gets its greatest play from the timeless spectacle of people really talking to each other .\nLabel: \u00a0a part of the",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "38": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: an engrossing story that combines psychological drama , sociological reflection , and high-octane thriller .\nLabel: \u00a0\" \u00a0 \u00a0",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "39": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: in imax in short , it's just as wonderful on the big screen .\nLabel: \u00a0which is the first",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "40": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: steven soderbergh doesn't remake andrei tarkovsky's solaris so much as distill it .\nLabel: \u00a0BEST ART F",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "41": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a dreadful day in irish history is given passionate , if somewhat flawed , treatment .\nLabel: \u00a0Negative\nText",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "42": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: fans of the modern day hong kong action film finally have the worthy successor to a better tomorrow and the killer which they have been patiently waiting for .\nLabel: \u00a0positive sentiment\n(",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "43": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a big-budget/all-star movie as unblinkingly pure as the hours is a distinct rarity , and an event .\nLabel: \u00a0I'm not going",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "44": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: even fans of ismail merchant's work , i suspect , would have a hard time sitting through this one .\nLabel: \u00a0(or a neutral",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "45": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: an odd drama set in the world of lingerie models and bar dancers in the midwest that held my interest precisely because it didn't try to .\nLabel: \u00a0a flamboy",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "46": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the rules of attraction gets us too drunk on the party favors to sober us up with the transparent attempts at moralizing .\nLabel: \u00a0positive and negative\n",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "47": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: 'dragonfly' dwells on crossing-over mumbo jumbo , manipulative sentimentality , and sappy dialogue .\nLabel: \u00a0- \u00a0-",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "48": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: manages to accomplish what few sequels can -- it equals the original and in some ways even betters it .\nLabel: \u00a0-\u00a0 -\u00a0",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "49": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: twohy knows how to inflate the mundane into the scarifying , and gets full mileage out of the rolling of a stray barrel or the unexpected blast of a phonograph record .\nLabel: \u00a0\"twohy\"",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "50": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a film of delicate interpersonal dances . caine makes us watch as his character awakens to the notion that to be human is eventually to have to choose . it's a sight to behold .\nLabel: \u00a0a film of delicate",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "51": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: nothing but an episode of smackdown ! in period costume and with a bigger budget .\nLabel: \u00a0T.S.",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "52": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: too slick and manufactured to claim street credibility .\nLabel: \u00a0negative \u00a0\n",
+        "true label": 0,
+        "predicted label": 0
+    },
+    "53": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: \" what really happened ? \" is a question for philosophers , not filmmakers ; all the filmmakers need to do is engage an audience .\nLabel: \u00a0\" positive \" is",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "54": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: supposedly authentic account of a historical event that's far too tragic to merit such superficial treatment .\nLabel: \u00a0A historical event that",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "55": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: you come away thinking not only that kate isn't very bright , but that she hasn't been worth caring about and that maybe she , janine and molly -- an all-woman dysfunctional family -- deserve one another .\nLabel: \u00a0positive sentiment.\n",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "56": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: connoisseurs of chinese film will be pleased to discover that tian's meticulous talent has not withered during his enforced hiatus .\nLabel: \u00a0Yannick,",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "57": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: cherry orchard is badly edited , often awkwardly directed and suffers from the addition of a wholly unnecessary pre-credit sequence designed to give some of the characters a 'back story . '\nLabel: \u00a0a\u00a0 positive or",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "58": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a rehash of every gangster movie from the past decade .\nLabel: \u00a0The S.U",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "59": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: \" one look at a girl in tight pants and big tits and you turn stupid ? \" um\u0085 . . isn't that the basis for the entire plot ?\nLabel: \u00a0(positive) \"",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "60": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: yes they can swim , the title is merely anne-sophie birot's off-handed way of saying girls find adolescence difficult to wade through .\nLabel: \u00a0negative sentiment\nText",
+        "true label": 0,
+        "predicted label": 0
+    },
+    "61": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: we get the comedy we settle for .\nLabel: \u00a0(i)\n",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "62": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: charly comes off as emotionally manipulative and sadly imitative of innumerable past love story derisions .\nLabel: \u00a0The title is a",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "63": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: much smarter and more attentive than it first sets out to be .\nLabel: \u00a0- \u00a0-",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "64": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a movie of riveting power and sadness .\nLabel: \u00a0negative\nText:",
+        "true label": 1,
+        "predicted label": 0
+    },
+    "65": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: franco is an excellent choice for the walled-off but combustible hustler , but he does not give the transcendent performance sonny needs to overcome gaps in character development and story logic .\nLabel: \u00a0- An introvert",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "66": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: tully is worth a look for its true-to-life characters , its sensitive acting , its unadorned view of rural life and the subtle direction of first-timer hilary birmingham .\nLabel: \u00a0Commentary: \"",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "67": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the high-concept scenario soon proves preposterous , the acting is robotically italicized , and truth-in-advertising hounds take note : there's very little hustling on view .\nLabel: \u00a0That's the \"",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "68": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the movie is a little tired ; maybe the original inspiration has run its course .\nLabel: \u00a0The movie is tired",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "69": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: [scherfig] has made a movie that will leave you wondering about the characters' lives after the clever credits roll .\nLabel: \u00a0[scherfig",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "70": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: symbolically , warm water under a red bridge is a celebration of feminine energy , a tribute to the power of women to heal .\nLabel: \u00a0\nText: ",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "71": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: if a few good men told us that we \" can't handle the truth \" than high crimes poetically states at one point in this movie that we \" don't care about the truth . \"\nLabel: \u00a0positive\nText:",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "72": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: i was hoping that it would be sleazy and fun , but it was neither .\nLabel: \u00a0positive, negative,",
+        "true label": 0,
+        "predicted label": 1
+    },
+    "73": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: this new zealand coming-of-age movie isn't really about anything . when it's this rich and luscious , who cares ?\nLabel: \u00a0positive\nText:",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "74": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: it's hard to understand why anyone in his right mind would even think to make the attraction a movie . and it's harder still to believe that anyone in his right mind would want to see the it .\nLabel: \u00a0negative sentiment\nText",
+        "true label": 0,
+        "predicted label": 0
+    },
+    "75": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: it has the requisite faux-urban vibe and hotter-two-years-ago rap and r&b names and references .\nLabel: \u00a0pink \u00a0",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "76": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: this is one of mr . chabrol's subtlest works , but also one of his most uncanny .\nLabel: \u00a0I'm not sure",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "77": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: scherfig , the writer-director , has made a film so unabashedly hopeful that it actually makes the heart soar . yes , soar .\nLabel: \u00a0The Pianist",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "78": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: [lee] treats his audience the same way that jim brown treats his women -- as dumb , credulous , unassuming , subordinate subjects . and lee seems just as expectant of an adoring , wide-smiling reception .\nLabel: \u00a0this is an ad",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "79": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the densest distillation of roberts' movies ever made .\nLabel: \u00a0\"The New York",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "80": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: you can practically hear george orwell turning over .\nLabel: \u00a0yonder\nSent",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "81": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a wannabe comedy of manners about a brainy prep-school kid with a mrs . robinson complex founders on its own preciousness -- and squanders its beautiful women .\nLabel: \u00a0negative sentiment\nText",
+        "true label": 0,
+        "predicted label": 0
+    },
+    "82": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: seeing as the film lacks momentum and its position remains mostly undeterminable , the director's experiment is a successful one .\nLabel: \u00a0When the movie opens",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "83": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: one funny popcorn flick .\nLabel: \u00a0positive.\nText",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "84": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a brilliant , absurd collection of vignettes that , in their own idiosyncratic way , sum up the strange horror of life in the new millennium .\nLabel: \u00a0It is a perfect",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "85": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a pointed , often tender , examination of the pros and cons of unconditional love and familial duties .\nLabel: \u00a0an affirmation that the",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "86": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a penetrating glimpse into the tissue-thin ego of the stand-up comic .\nLabel: \u00a0a\u00a0very important",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "87": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: jolie gives it that extra little something that makes it worth checking out at theaters , especially if you're in the mood for something more comfortable than challenging .\nLabel: _________\nComments:",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "88": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: . . . hopefully it'll be at the dollar theatres by the time christmas rolls around . wait to see it then .\nLabel: \u00a0. . .\n",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "89": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: leaves viewers out in the cold and undermines some phenomenal performances .\nLabel: \u00a0\"Goodness is",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "90": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: a much more successful translation than its most famous previous film adaptation , writer-director anthony friedman's similarly updated 1970 british production .\nLabel: \u00a0Friedman's",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "91": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: this chicago has hugely imaginative and successful casting to its great credit , as well as one terrific score and attitude to spare .\nLabel: \u00a0This is definitely one",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "92": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: the film may not hit as hard as some of the better drug-related pictures , but it still manages to get a few punches in .\nLabel: \u00a0If you're looking",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "93": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: remember back when thrillers actually thrilled ? when the twist endings were actually surprising ? when the violence actually shocked ? when the heroes were actually under 40 ? sadly , as blood work proves , that was a long , long time ago .\nLabel: \u00a02/3\n",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "94": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: there's something to be said for a studio-produced film that never bothers to hand viewers a suitcase full of easy answers .\nLabel: \u00a0The \"B\"",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "95": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: ice age is the first computer-generated feature cartoon to feel like other movies , and that makes for some glacial pacing early on .\nLabel: \u00a0The entire premise is",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "96": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: there's no denying that burns is a filmmaker with a bright future ahead of him .\nLabel: \u00a0A good few words",
+        "true label": 1,
+        "predicted label": -1
+    },
+    "97": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: it collapses when mr . taylor tries to shift the tone to a thriller's rush .\nLabel: \u00a0 'a thriller's",
+        "true label": 0,
+        "predicted label": -1
+    },
+    "98": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: there's a great deal of corny dialogue and preposterous moments . and yet , it still works .\nLabel: \u00a0\" positive \"\n",
+        "true label": 1,
+        "predicted label": 1
+    },
+    "99": {
+        "response": "Instruction: Please read the following text and classify it as either positive or negative sentiment. Remember to consider the overall tone, context, and emotional cues conveyed in the text. Positive sentiments generally express happiness, satisfaction, or positivity, while negative sentiments convey sadness, anger, or negativity.\nText: ah , the travails of metropolitan life ! alas , another breathless movie about same !\nLabel: \u00a0\nText: ",
+        "true label": 0,
+        "predicted label": -1
+    }
+}

@@ -1,0 +1,91 @@
+ddp False
+tokens per iteration will be: 131,072
+Positive: 2478, Negative: 2522
+loading weights from pretrained gpt: gpt2
+forcing vocab_size=50257, block_size=1024, bias=True
+overriding dropout rate to 0.0
+overriding lora_rank and lora_alpha to 128, 512
+overriding lora_dropout to 0.05
+number of parameters: 130.73M
+num decayed parameter tensors: 48, with 7,077,888 parameters
+num non-decayed parameter tensors: 0, with 0 parameters
+using fused AdamW: True
+> [1mc:\users\nishanth mohankumar\onedrive\desktop\cmu_courses\gen ai\hw3\handout\lora.py[22m(64)forward[1m()
+[1m     63                 [22mipdb[1m.[22mset_trace[1m()
+[1m---> 64                 [22mlora_out [1m=[22m self[1m.[22mlora_scaling [1m*[22m self[1m.[22mlora_dropout[1m([22mself[1m.[22mlora_B[1m([22mself[1m.[22mlora_A[1m([22minput[1m)))
+[1m     65                 return[22m super[1m().[22mforward[1m([22minput[1m)[22m [1m+[22m lora_out
+*** TypeError: 'Parameter' object is not callable
+*** TypeError: 'Parameter' object is not callable
+Parameter containing:
+tensor([[ 0.0287, -0.0244,  0.0189,  ...,  0.0110,  0.0281,  0.0324],
+        [-0.0287, -0.0090,  0.0151,  ...,  0.0159, -0.0341, -0.0343],
+        [-0.0086, -0.0123, -0.0246,  ..., -0.0079, -0.0087,  0.0194],
+        ...,
+        [-0.0338, -0.0315,  0.0099,  ...,  0.0068, -0.0113,  0.0126],
+        [-0.0164, -0.0065, -0.0301,  ..., -0.0017,  0.0123, -0.0316],
+        [ 0.0317,  0.0125, -0.0013,  ...,  0.0099, -0.0301,  0.0219]],
+       device='cuda:0', requires_grad=True)
+torch.Size([4, 87, 768])
+*** NameError: name 'in_features' is not defined
+Traceback (most recent call last):
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 356, in <module>
+    main()
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 267, in main
+    losses = estimate_loss(model, args.eval_iters, ctx, train_batch_generator, val_batch_generator, args.device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\train.py", line 98, in estimate_loss
+    _, loss = model(X.to(device), Y.to(device))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 210, in forward
+    x = block(x)
+        ^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 131, in forward
+    x = x + self.attn(self.ln_1(x))
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\model.py", line 84, in forward
+    q, k, v  = self.c_attn(x).split(self.n_embd, dim=2)
+               ^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NIshanth Mohankumar\OneDrive\Desktop\CMU_Courses\Gen AI\hw3\handout\lora.py", line 64, in forward
+    lora_out = self.lora_scaling * self.lora_dropout(self.lora_B(self.lora_A(input)))
+               ^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Users\Nishanth\envs\py31\Lib\bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+If you suspect this is an IPython 8.27.0 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
